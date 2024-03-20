@@ -1,0 +1,22 @@
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#f25c57,#7a1b17);
+}
+.child-container{
+    text-align: center;
+    background: #e87874;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #b8241f, 0 6px 20px 0 #b8241f;
+    padding: 30px;
+}
+.time-container{
+    display: flex;
+    justify-content: space-around;
+}
+p{
+    font-weight: bold;
+}
